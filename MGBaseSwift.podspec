@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGBaseSwift"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "iOS-Swift Base Project"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "MGBaseSwift/MGBaseSwift/Classes/**/*"
+  s.source_files  = "MGBaseSwift/MGBaseSwift/Classes/**/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
