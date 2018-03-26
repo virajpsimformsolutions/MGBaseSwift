@@ -336,8 +336,9 @@ extension MGBaseTableAdapter: UITableViewDelegate, UITableViewDataSource {
                 //如果正在加載置頂, 也跳過
                 if (!loadtopHelper.isLoading) {
                     loadtopHelper.isLoading = true
-                    tableView.beginUpdates()
-                    tableView.endUpdates()
+//                    tableView.beginUpdates()
+//                    tableView.endUpdates()
+                    reloadData()
                     timer.startCountdown(what: 0x1, byDelay: loadtopHelper.animDuration) {
                         self.loadtopDelegate?.startLoadtop()
                     }

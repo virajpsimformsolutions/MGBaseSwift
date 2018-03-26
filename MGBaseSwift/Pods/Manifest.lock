@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.7.0)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - CLImagePickerTool (2.2.8)
+  - Kingfisher (4.6.4)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - ReachabilitySwift (4.1.0)
+  - SwiftyJSON (4.0.0)
+  - Toast-Swift (3.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireImage (~> 3.3)
+  - CLImagePickerTool (from `https://github.com/Darren-chenchen/CLImagePickerTool.git`)
+  - Kingfisher (~> 4.0)
+  - R.swift
+  - ReachabilitySwift
+  - SwiftyJSON
+  - Toast-Swift (~> 3.0.1)
+
+EXTERNAL SOURCES:
+  CLImagePickerTool:
+    :git: https://github.com/Darren-chenchen/CLImagePickerTool.git
+
+CHECKOUT OPTIONS:
+  CLImagePickerTool:
+    :commit: fd5af4c08b7d659211387e3fb81436625bfef0bf
+    :git: https://github.com/Darren-chenchen/CLImagePickerTool.git
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  CLImagePickerTool: 0db5e4a938401375bf75936c4cb3c6a6fe27111f
+  Kingfisher: 68498a706e46c2a050b0c9572f100e5db407f6e0
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
+
+PODFILE CHECKSUM: 8dd8a6253835d8921e9e86348266ae71ea428658
+
+COCOAPODS: 1.4.0
